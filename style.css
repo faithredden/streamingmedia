@@ -69,7 +69,7 @@ h2, h3{
     text-transform: uppercase;
 }
 
-p {
+p, dd, dl{
     font-size: 1em;
 }
 
@@ -167,6 +167,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
         width:75%
     }
 }  
+
 
 
 
