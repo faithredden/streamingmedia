@@ -66,6 +66,7 @@ h1{
 
 h2, h3{
     font-size: 1em;
+    text-transform: uppercase;
 }
 
 p {
@@ -76,10 +77,10 @@ footer p{
     font-size: .75em;
 }
 
+
 nav{
     background-color: #030a8c;
-    position: fixed;
-    top:0
+    
 }
 
 nav h2{
@@ -87,8 +88,8 @@ nav h2{
 }
 header{
     background: linear-gradient(to right, #2104d9, black);
-    color:#ffffff
-    
+    padding: 20px;
+    color:#ffffff;
 }
 
 
@@ -97,6 +98,7 @@ ul {
     overflow: hidden;
     max-height: 0;
     transition: max-height .2s ease-out;
+   
     
 }
 label {
@@ -155,6 +157,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
         top: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        
     }
     label span, input {
         display: none;
@@ -163,5 +166,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     body{
         width:75%
     }
-    
-}
+}  
+
+
+
