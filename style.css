@@ -154,6 +154,15 @@ nav{
     width: 375px;
     z-index:3;
 }
+.title{
+    position: absolute;
+    text-decoration: none;
+    color: #ffffff;
+    top:0%;
+    margin: 20px;
+    left:110px;
+    font-weight: bold;
+}
 
 
 nav h2{
@@ -346,7 +355,14 @@ footer p{
    
 }
 @media (min-width:834px) {
+    #allplaylists{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 3fr 1fr;
+    }
    .scrolltwo{
+    grid-column: 1 / 2;
+    grid-row: 2 /3;
     display: grid;
     grid-template-rows: repeat(5,1fr);
     overflow-x: hidden;
@@ -357,6 +373,8 @@ footer p{
    }
 
   .scrollthree{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
     display: grid;
     grid-template-rows: repeat(5,1fr);
     overflow-x: hidden;
