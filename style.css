@@ -159,10 +159,11 @@ nav{
     text-decoration: none;
     color: #ffffff;
     top:0%;
-    left:110px;
+    left:100px;
     margin:20px;
     font-weight: bold;
     text-transform:uppercase;
+    font-size:1.25em;
 }
 nav h2{
     display:none;
@@ -353,32 +354,23 @@ footer p{
     body{
         width: 75%;
     }
-    nav{
-        width:75%; 
-        display:flex;
-        
-    }
-    nav a {
+    nav a{
         color: #ffffff;
         text-decoration: none;
-        text-transform: uppercase;   
+        text-transform: uppercase; 
     }
-   
-}
-@media (min-width:834px) {
     nav{
         width:75%;
     }
     ul{
-        width: 100%;
-        text-align:center;
+        width: 100%;    
+       text-align: center;
         padding-top:10px;
+        padding-left:10px;
     }
     .title{
-        text-align: left;
-        position:absolute;
-        top:0;
-        left:0
+        position: absolute;
+        left: 5px;
     }
 
    .scrolltwo{
