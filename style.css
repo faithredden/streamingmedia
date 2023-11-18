@@ -162,8 +162,8 @@ nav{
     left:110px;
     margin:20px;
     font-weight: bold;
+    text-transform:uppercase;
 }
-
 nav h2{
     display:none;
 }
@@ -178,6 +178,7 @@ header{
 header h1{
     font-weight: bold;
     padding:5px;
+    text-transform: uppercase;
 }
 header p{
     padding:10px;
