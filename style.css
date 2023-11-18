@@ -160,6 +160,7 @@ nav{
     color: #ffffff;
     top:0%;
     left:110px;
+    margin:20px;
     font-weight: bold;
 }
 
@@ -240,6 +241,15 @@ audio{
     display:block;
     text-align: center;
     margin: 10px 0 30px 32px;
+}
+.more:hover{
+    background: #020659;
+}
+.all:hover{
+    background-color: #020659;
+}
+.curated:hover{
+    background-color: #020659;
 }
 #trending ::-webkit-scrollbar {
    width: 15px;
